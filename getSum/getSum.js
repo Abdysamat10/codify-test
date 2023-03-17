@@ -1,9 +1,6 @@
 function getSum(prices, discount) {
     const total = prices.reduce((acc, price) => acc + price, 0);
     const discountAmount = total * (discount / 100);
-    console.log((discount / 100));
-    console.log(total);
-    console.log(total * (discount / 100));
     const discountedTotal = total - discountAmount;
     return discountedTotal;
 }
