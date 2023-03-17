@@ -1,4 +1,3 @@
-console.log('Codify Homework GutHub Repositorie');
 function isBefore(target, base) {
     const target2 = new Date(target);
     const base2 = new Date(base);
